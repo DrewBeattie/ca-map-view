@@ -1,3 +1,4 @@
 streamlit
 folium
 streamlit-folium
+git+https://${GITHUB_TOKEN}@github.com/DrewBeattie/ca-map-view.git
