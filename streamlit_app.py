@@ -13,6 +13,11 @@ LEGEND_URL = (
 st.set_page_config(layout="wide")
 st.title("Canadian Digital Elevation Model (CDEM) – Shaded Relief")
 
+    # Display git error message
+st.error(
+    "fatal: unable to access 'https://github.com/DrewBeattie/ca-map-view.git/': The requested URL returned error: 403"
+)
+
 lat, lon = 54.13, -108.43
 
 m = folium.Map(location=[lat, lon], zoom_start=8, control_scale=True)
